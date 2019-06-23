@@ -5,6 +5,3 @@ class Comment:
         self.title = kwargs["title"]
         self.date = kwargs["date"]
         self.comment = kwargs["comment"]
-
-    def get_news_id(self):
-        return self.news_id
